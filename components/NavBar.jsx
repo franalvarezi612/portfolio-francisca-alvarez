@@ -1,5 +1,4 @@
-import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Button } from 'react-native';
 
 const NavBar = () => {
     return (
@@ -24,7 +23,7 @@ const NavBar = () => {
 const styles = {
     container: {
         flexDirection: 'row',
-        justifyContent: 'flex-end',
+        justifyContent: 'flex-end   ',
         padding: 10,
         backgroundColor: '#fff',
     },

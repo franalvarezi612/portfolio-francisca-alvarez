@@ -2,12 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, SafeAreaView, View } from 'react-native'
 
 import NavBar from './components/NavBar';
+import Main from './components/Main';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <SafeAreaView style={{ flex: 1 }}>
         <NavBar />
+        <Main />
       </SafeAreaView>
       <StatusBar style="auto" />
     </View>
