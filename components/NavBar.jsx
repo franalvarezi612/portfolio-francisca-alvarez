@@ -3,17 +3,14 @@ import { View, Pressable, Text, StyleSheet, Image } from 'react-native';
 const NavBar = ({navigation}) => {
     return (
         <View style={styles.container}>
+            <Pressable onPress={() => navigation.navigate('Main')}>
             <Image
                 source={require('../assets/icono-porfolio.png')}
                 style={styles.image}
             />
-            <Pressable
-                style={[styles.button, { marginLeft: 'auto' }]}
-                onPress={() => navigation.navigate('Main')}>
-                <Text style={styles.buttonText}>Inicio</Text>
             </Pressable>
             <Pressable
-                style={styles.button}
+                style={[styles.button, { marginLeft: 'auto'}]}
                 onPress={() => navigation.navigate('AboutMe')}>
                 <Text style={styles.buttonText}>Sobre mí</Text>
             </Pressable>
