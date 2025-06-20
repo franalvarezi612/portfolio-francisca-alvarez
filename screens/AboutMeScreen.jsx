@@ -5,10 +5,10 @@ const AboutMeScreen = () => {
         <View style={styles.container}>
             <Text style={styles.title}>Sobre mí</Text>
             <Text style={styles.text}>
-                Soy un apasionado desarrollador de software con experiencia en React Native. Me encanta crear aplicaciones móviles que mejoren la vida de las personas.
+                Soy una apasionada por el desarrollo de software, por el deporte y por conocer el mundo
             </Text>
             <Text style={styles.text}>
-                En mi tiempo libre, disfruto aprendiendo nuevas tecnologías y contribuyendo a proyectos de código abierto.
+                En mi tiempo libre, disfruto compartiendo con mis seres queridos, haciendo el deporte que más me gusta (Running) y aprendiendo nuevas tecnologías.
             </Text>
         </View>
     );
