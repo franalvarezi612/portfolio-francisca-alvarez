@@ -1,6 +1,6 @@
 import { View, Pressable, Text, StyleSheet, Image } from 'react-native';
 
-const NavBar = () => {
+const NavBar = ({navigation}) => {
     return (
         <View style={styles.container}>
             <Image
@@ -9,17 +9,17 @@ const NavBar = () => {
             />
             <Pressable
                 style={[styles.button, { marginLeft: 'auto' }]}
-                onPress={() => alert('Inicio presionado')}>
+                onPress={() => navigation.navigate('Main')}>
                 <Text style={styles.buttonText}>Inicio</Text>
             </Pressable>
             <Pressable
                 style={styles.button}
-                onPress={() => alert('Sobre mí presionado')}>
+                onPress={() => navigation.navigate('AboutMe')}>
                 <Text style={styles.buttonText}>Sobre mí</Text>
             </Pressable>
             <Pressable
                 style={styles.button}
-                onPress={() => alert('Proyectos presionado')}>
+                onPress={() => navigation.navigate('Proyects')}>
                 <Text style={styles.buttonText}>Proyectos</Text>
             </Pressable>
         </View>

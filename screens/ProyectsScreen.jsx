@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-const Proyectos = () => {
+const ProyectsScreen = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Proyectos</Text>
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
 });
-export default Proyectos;
+export default ProyectsScreen;

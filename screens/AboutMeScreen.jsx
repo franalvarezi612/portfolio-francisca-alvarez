@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-const SobreMi = () => {
+const AboutMeScreen = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Sobre mí</Text>
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
 });
-export default SobreMi;
+export default AboutMeScreen;
